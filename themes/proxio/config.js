@@ -38,7 +38,7 @@ const CONFIG = {
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
     // 特性区块
-    PROXIO_FEATURE_ENABLE: true, // 特性区块开关
+    PROXIO_FEATURE_ENABLE: false, // 特性区块开关
     PROXIO_FEATURE_TITLE: '为什么选我',
     PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
     PROXIO_FEATURE_TEXT_2:
@@ -64,7 +64,7 @@ const CONFIG = {
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
     // 首页生涯区块
-    PROXIO_CAREER_ENABLE: true, // 区块开关
+    PROXIO_CAREER_ENABLE: false, // 区块开关
     PROXIO_CAREER_TITLE: '生涯',
     PROXIO_CAREER_TEXT:
         '以下是我的职业生涯',
@@ -150,14 +150,14 @@ const CONFIG = {
     PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
     PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
     PROXIO_FAQS: [
-        { q: 'NotionNext有帮助文档吗？', a: 'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署' },
-        { q: '部署后要如何编写文章？', a: '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>' },
-        { q: '站点部署失败，更新失败？', a: '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助' },
-        { q: '文章没有实时同步？', a: '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决' },
+        { q: '怎么收费？', a: 'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署' },
+        { q: '完全定制吗？', a: '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>' },
+        { q: '之后选材施工怎么办？', a: '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助' },
+        { q: '怎么联系你？', a: '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决' },
     ],
 
     // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于作者',
     PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
     PROXIO_ABOUT_TEXT_2:
@@ -193,11 +193,11 @@ const CONFIG = {
             name: '友情链接',
             menus: [
                 {
-                    title: 'Tangly的学习笔记',
+                    title: '纯净密码本',
                     href: 'https://blog.tangly1024.com'
                 },
                 {
-                    title: 'NotionNext',
+                    title: '宠物照片欣赏',
                     href: 'https://www.tangly1024.com'
                 }
             ]
@@ -207,15 +207,15 @@ const CONFIG = {
             menus: [
                 { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
                 {
-                    title: '开发帮助',
+                    title: '需求帮助',
                     href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
                 },
                 {
-                    title: '功能反馈',
+                    title: '用户反馈',
                     href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
                 },
                 {
-                    title: '技术讨论',
+                    title: '成果讨论',
                     href: 'https://github.com/tangly1024/NotionNext/discussions'
                 },
                 {
