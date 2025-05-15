@@ -81,7 +81,7 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_TITLE: '用户反馈',
     PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
     PROXIO_TESTIMONIALS_TEXT_2:
-        '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
+        '越来越多的宠物家庭，选择与我们一起打造真正属于“你和它”的理想空间。从小型角落改造到全屋共生设计，我们用专业和共情陪伴每一次改变的开始。',
 
     // 用户测评处的跳转按钮
     PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
@@ -130,16 +130,16 @@ const CONFIG = {
                 '他们连鱼缸的位置都讲究风口、光线和视线交汇，真的是‘为鱼着想’，也是为人打造的疗愈角落。',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '来自嘉兴的鱼缸爱好者',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Anjhon`s',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '来自嘉兴的鱼缸爱好者',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT: '我家鹦鹉特别黏人，一栖把鸟笼做进了窗边角柜，还配了防羽毛抽屉，太贴心了。',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '来自温州的鸟宠主理人',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN考验辅导',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: ' 来自温州的鸟宠主理人',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
         }
     ],
@@ -223,11 +223,11 @@ const CONFIG = {
                     href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
                 },
                 {
-                    title: '邮箱',
+                    title: '抖音',
                     href: 'https://github.com/tangly1024/NotionNext/discussions'
                 },
                 {
-                    title: '关于作者',
+                    title: '邮箱',
                     href: 'https://blog.tangly1024.com/about'
                 }
             ]
