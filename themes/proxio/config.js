@@ -197,10 +197,6 @@ const CONFIG = {
                     href: 'https://blog.tangly1024.com'
                 },
                   {
-                    title: '案例作品',
-                    href: 'https://www.tangly1024.com'
-                },
-                  {
                     title: '设计理念',
                     href: 'https://www.tangly1024.com'
                 }
