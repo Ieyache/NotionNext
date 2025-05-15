@@ -7,8 +7,8 @@ const CONFIG = {
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-    PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+    PROXIO_HERO_TITLE_1: '我们专注于宠物与人的共生空间设计', // 英雄区文字
+    PROXIO_HERO_TITLE_2: '让陪伴不再局限于角落，而真正融入家的每一处动线', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
@@ -26,7 +26,7 @@ const CONFIG = {
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
     PROXIO_BLOG_TITLE: '作品',
     PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-    PROXIO_BLOG_TEXT_1: '我的最新动态',
+    PROXIO_BLOG_TEXT_1: '',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -91,54 +91,54 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ ',
+                '原来不是我宠物太调皮，是我们家的空间从没考虑过它的感受。一栖帮我重新规划了客厅动线后，狗狗每天都知道自己该去哪了。 ',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '来自杭州的柯基主人',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '很喜欢这个主题，本代码小白用三天台风假期搭建出来了，还根据大佬的教程弄了自定义域名，十分感谢，已请喝咖啡~',
+                '我们家猫有三只，一直互相抢地盘。一栖设计把阳台、书架和走廊都利用起来，做了‘三猫三层空间’，现在和平了！',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '来自宁波的三猫家庭',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
+                '我养的是蛇，很多设计师听了就推我。一栖不仅没避讳，还把恒温箱做成了书柜一部分，美得像艺术装置。( •̀ ω •́ )y ',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '来自慈溪的爬宠爱好者',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
+                '没人理解我们家的龙猫要静要暗，还怕热。一栖设计了一个藏在柜子里的活动塔，连访客都看不出来那里住着小家伙。',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '来自绍兴的异宠家庭',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
+                '他们连鱼缸的位置都讲究风口、光线和视线交汇，真的是‘为鱼着想’，也是为人打造的疗愈角落。',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '来自嘉兴的鱼缸爱好者',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
         },
         {
-            PROXIO_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
+            PROXIO_TESTIMONIALS_ITEM_TEXT: '我家鹦鹉特别黏人，一栖把鸟笼做进了窗边角柜，还配了防羽毛抽屉，太贴心了。',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '来自温州的鸟宠主理人',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
         }
@@ -150,10 +150,10 @@ const CONFIG = {
     PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
     PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
     PROXIO_FAQS: [
-        { q: '怎么收费？', a: 'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署' },
-        { q: '完全定制吗？', a: '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>' },
-        { q: '之后选材施工怎么办？', a: '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助' },
-        { q: '怎么联系你？', a: '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决' },
+        { q: '你们的设计服务怎么收费？是按房间、按宠物数量还是面积算的？', a: '我们的收费方式基于项目类型 + 宠物复杂度 + 空间改造深度 + 空间面积综合评估。具体报价会在了解你的需求后，提供一份详细的设计服务建议书，内容包括设计范围、周期、输出内容与价格明细。我们不按宠物数量收费，但会根据宠物种类及特殊行为需求作适当调整。' },
+        { q: '你们的设计是完全定制的吗？有没有模板可参考？', a: '我们的服务是100% 完全定制，不使用模板。每一个空间都是根据你与宠物的生活习惯、性格、居住结构独立规划。当然，我们也会提供过往案例图片与结构图作为灵感参考，让你更容易理解设计方向，但不会复制同款。' },
+        { q: ' 你们的服务是只出设计图，还是也能帮我落地施工？', a: '目前我们以纯设计为主，不参与施工。但会为你提供完整的设计图、主材建议、宠物用品选型清单，支持你自行对接本地施工团队。同时我们也可协助远程选品搭配，减少落地风险。如果你在宁波/慈溪地区，我们也可推荐合作施工团队。' },
+        { q: ' 我家每种宠物习性完全不同，你们能考虑这些个性差异吗？', a: '当然可以！每一个设计方案开始前，我们会通过问卷和沟通，了解你宠物的行为特点（如爱跳、怕水、怕吵、护食等），并在空间中做相应安排，比如设立安全角落、缓冲区、安静通道等，让家更贴合它的天性。' },
     ],
 
     // 关于作者区块
@@ -178,13 +178,13 @@ const CONFIG = {
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
     PROXIO_BRANDS: [
-        'Web Design',
-        'Logo Design',
-        'Mobile App Design',
-        'Product Design'
+        '宠物友好空间设计',
+        '人宠共生的生活美学',
+        '每一处角落都为生命留白',
+        '完全定制 · 为你和TA而生'
     ],
 
-    PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+    PROXIO_FOOTER_SLOGAN: '我们用设计，让每一个生命在家的每一寸都被温柔对待。',
 
     // 页脚三列菜单组
     // 页脚菜单
