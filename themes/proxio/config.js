@@ -196,10 +196,6 @@ const CONFIG = {
                     title: '品牌介绍',
                     href: 'https://blog.tangly1024.com'
                 },
-                {
-                    title: '服务项目',
-                    href: 'https://www.tangly1024.com'
-                },
                   {
                     title: '案例作品',
                     href: 'https://www.tangly1024.com'
