@@ -199,7 +199,7 @@ const CONFIG = {
                 {
                     title: '服务项目',
                     href: 'https://www.tangly1024.com'
-                }，
+                },
                   {
                     title: '案例作品',
                     href: 'https://www.tangly1024.com'
