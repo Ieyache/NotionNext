@@ -190,32 +190,40 @@ const CONFIG = {
     // 页脚菜单
     PROXIO_FOOTER_LINKS: [
         {
-            name: '友情链接',
+            name: '关于我',
             menus: [
                 {
-                    title: '纯净密码本',
+                    title: '品牌介绍',
                     href: 'https://blog.tangly1024.com'
                 },
                 {
-                    title: '宠物照片欣赏',
+                    title: '服务项目',
+                    href: 'https://www.tangly1024.com'
+                }，
+                  {
+                    title: '案例作品',
+                    href: 'https://www.tangly1024.com'
+                }，
+                  {
+                    title: '设计理念',
                     href: 'https://www.tangly1024.com'
                 }
             ]
         },
         {
-            name: '开发者',
+            name: '联系我',
             menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+                { title: '微信公众号', href: 'https://github.com/tangly1024/NotionNext' },
                 {
-                    title: '需求帮助',
+                    title: '小红书',
                     href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
                 },
                 {
-                    title: '用户反馈',
+                    title: 'Bilibili',
                     href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
                 },
                 {
-                    title: '成果讨论',
+                    title: '邮箱',
                     href: 'https://github.com/tangly1024/NotionNext/discussions'
                 },
                 {
@@ -237,20 +245,20 @@ const CONFIG = {
     PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
     // 404页面的提示语
-    PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
-    PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
-    PROXIO_404_BACK: '回到主页',
+    PROXIO_404_TITLE: '走丢了~',
+    PROXIO_404_TEXT: '怎么办怎么办！！联系我或回首页看看其他的吧',
+    PROXIO_404_BACK: '回主页！立刻！马上！now！',
 
     // 页面底部的行动呼吁模块
     PROXIO_CTA_ENABLE: true,
-    PROXIO_CTA_TITLE: '与我建立联系',
-    PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+    PROXIO_CTA_TITLE: '和我一起',
+    PROXIO_CTA_TITLE_2: '为你的宠物，打造一个真正自在的家',
     PROXIO_CTA_DESCRIPTION:
-        '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+        '空间不止属于人，我们帮助你和宠物一起拥有更舒适、温暖、有爱的生活环境',
     PROXIO_CTA_BUTTON: true, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
-    PROXIO_CTA_BUTTON_TEXT: '联系我',
+    PROXIO_CTA_BUTTON_TEXT: '立即预约设计',
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
     PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
