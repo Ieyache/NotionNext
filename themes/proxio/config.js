@@ -245,7 +245,7 @@ const CONFIG = {
     PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
     // 404页面的提示语
-    PROXIO_404_TITLE: '走丢了~',
+    PROXIO_404_TITLE: '走丢辣！~',
     PROXIO_404_TEXT: '怎么办怎么办！！联系我或回首页看看其他的吧',
     PROXIO_404_BACK: '回主页！立刻！马上！now！',
 
