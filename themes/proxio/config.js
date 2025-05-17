@@ -194,41 +194,37 @@ const CONFIG = {
             menus: [
                 {
                     title: '品牌介绍',
-                    href: 'https://blog.tangly1024.com'
-                },
-                {
-                    title: '服务项目',
-                    href: 'https://blog.tangly1024.com'
+                    href: 'https://www.eqisheji.cn/'
                 },
                 {
                     title: '案例作品',
-                    href: 'https://blog.tangly1024.com'
+                    href: 'https://www.eqisheji.cn/'
                 },
                   {
                     title: '设计理念',
-                    href: 'https://www.tangly1024.com'
+                    href: 'https://www.eqisheji.cn/'
                 }
             ]
         },
         {
             name: '联系我',
             menus: [
-                { title: '微信公众号', href: 'https://github.com/tangly1024/NotionNext' },
+                { title: '微信公众号', href: 'https://www.eqisheji.cn/' },
                 {
                     title: '小红书',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+                    href: 'https://www.eqisheji.cn/'
                 },
                 {
                     title: 'Bilibili',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+                    href: 'https://www.eqisheji.cn/'
                 },
                 {
                     title: '抖音',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
+                    href: 'https://www.eqisheji.cn/'
                 },
                 {
                     title: '邮箱',
-                    href: 'https://blog.tangly1024.com/about'
+                    href: 'https://www.eqisheji.cn/'
                 }
             ]
         }],
