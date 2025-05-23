@@ -212,7 +212,7 @@ const CONFIG = {
                 { title: '微信公众号', href: 'https://www.eqisheji.cn/' },
                 {
                     title: '小红书',
-                    href: 'https://www.eqisheji.cn/'
+                    href: 'https://www.xiaohongshu.com/user/profile/637713f6000000001f01cdeb?xsec_token=YB3kY_-529h3KQ6tHk_shYBxsUYWEMhOH3SfoLzKU6ltA=&xsec_source=app_share&xhsshare=CopyLink&appuid=637713f6000000001f01cdeb&apptime=1747966505&share_id=ba3060a6b3544b2a85ccc94774375631'
                 },
                 {
                     title: 'Bilibili',
