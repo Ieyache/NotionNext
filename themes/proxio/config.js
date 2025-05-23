@@ -194,15 +194,11 @@ const CONFIG = {
             menus: [
                 {
                     title: '品牌介绍',
-                    href: 'https://www.eqisheji.cn/'
-                },
-                {
-                    title: '案例作品',
-                    href: 'https://www.eqisheji.cn/'
+                    href: 'https://www.eqisheji.cn/about/'
                 },
                   {
                     title: '设计理念',
-                    href: 'https://www.eqisheji.cn/'
+                    href: 'https://www.eqisheji.cn/about/'
                 }
             ]
         },
