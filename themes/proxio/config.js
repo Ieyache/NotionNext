@@ -253,7 +253,7 @@ const CONFIG = {
         '空间不止属于人，我们帮助你和宠物一起拥有更舒适、温暖、有爱的生活环境',
     PROXIO_CTA_BUTTON: true, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
-        '/about',
+        'https://tally.so/r/3xB8pG',
     PROXIO_CTA_BUTTON_TEXT: '立即预约设计',
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
